@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="tbb"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\source\;CMake Files\source\app\;CMake Files\source\app\PccAppColorConverter\;CMake Files\source\app\PccAppConformance\;CMake Files\source\app\PccAppDecoder\;CMake Files\source\app\PccAppEncoder\;CMake Files\source\app\PccAppMetrics\;CMake Files\source\app\PccAppNormalGenerator\;CMake Files\source\app\PccAppParser\;CMake Files\source\app\PccAppVideoDecoder\;CMake Files\source\app\PccAppVideoEncoder\;CMake Files\source\lib\;CMake Files\source\lib\PccLibBitstreamCommon\;CMake Files\source\lib\PccLibBitstreamCommon\include\;CMake Files\source\lib\PccLibBitstreamReader\;CMake Files\source\lib\PccLibBitstreamWriter\;CMake Files\source\lib\PccLibColorConverter\;CMake Files\source\lib\PccLibCommon\;CMake Files\source\lib\PccLibCommon\include\;CMake Files\source\lib\PccLibConformance\;CMake Files\source\lib\PccLibDecoder\;CMake Files\source\lib\PccLibEncoder\;CMake Files\source\lib\PccLibMetrics\;CMake Files\source\lib\PccLibVideoDecoder\;CMake Files\source\lib\PccLibVideoEncoder\;CMake Files\dependencies\;CMake Files\dependencies\PccLibHevcParser\;CMake Files\dependencies\cmake\;CMake Files\dependencies\tbb\;CMake Files\dependencies\tbb\build\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/cmake-build-debug/dependencies/tbb"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/dependencies/tbb/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/dependencies/tbb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/dependencies/tbb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/dependencies/tbb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tbb_static">
+				<Option output="/home/admin/mpeg-pcc-tmc2/lib/libtbb_static.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/cmake-build-debug/dependencies/tbb"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__TBB_BUILD=1"/>
+					<Add option="-DDO_ITT_NOTIFY"/>
+					<Add option="-DUSE_PTHREAD"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/rml/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/cmake-build-debug/dependencies/tbb"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/dependencies/tbb/Makefile&quot;  VERBOSE=1 tbb_static"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/dependencies/tbb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/dependencies/tbb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/dependencies/tbb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tbb_static/fast">
+				<Option output="/home/admin/mpeg-pcc-tmc2/lib/libtbb_static.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/cmake-build-debug/dependencies/tbb"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__TBB_BUILD=1"/>
+					<Add option="-DDO_ITT_NOTIFY"/>
+					<Add option="-DUSE_PTHREAD"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/rml/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/cmake-build-debug/dependencies/tbb"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/dependencies/tbb/Makefile&quot;  VERBOSE=1 tbb_static/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/dependencies/tbb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/dependencies/tbb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/dependencies/tbb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tbb_def_files">
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/cmake-build-debug/dependencies/tbb"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/dependencies/tbb/Makefile&quot;  VERBOSE=1 tbb_def_files"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/dependencies/tbb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/dependencies/tbb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/dependencies/tbb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/old/concurrent_queue_v2.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/old/concurrent_queue_v2.h">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/old/concurrent_vector_v2.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/old/concurrent_vector_v2.h">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/old/spin_rw_mutex_v2.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/old/spin_rw_mutex_v2.h">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/old/task_v2.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/rml/client/rml_tbb.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/arena.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/arena.h">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/cache_aligned_allocator.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/concurrent_hash_map.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/concurrent_monitor.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/concurrent_monitor.h">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/concurrent_queue.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/concurrent_vector.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/condition_variable.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/critical_section.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/dynamic_link.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/dynamic_link.h">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/governor.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/governor.h">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/itt_notify.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/itt_notify.h">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/lin64-tbb-export.def">
+			<Option target="tbb_def_files"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/market.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/market.h">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/mutex.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/observer_proxy.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/observer_proxy.h">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/pipeline.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/private_server.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/queuing_mutex.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/queuing_rw_mutex.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/reader_writer_lock.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/recursive_mutex.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/scheduler.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/scheduler.h">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/semaphore.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/semaphore.h">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/spin_mutex.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/spin_rw_mutex.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/task.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/task_group_context.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/tbb_main.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/tbb_main.h">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/tbb_misc.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/tbb_misc.h">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/tbb_misc_ex.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/tbb_statistics.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/tbb_statistics.h">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/tbb_thread.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/x86_rtm_rw_mutex.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbbmalloc/lin64-tbbmalloc-export.def">
+			<Option target="tbb_def_files"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/app/PccAppColorConverter/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\app\PccAppColorConverter\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/app/PccAppConformance/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\app\PccAppConformance\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/app/PccAppDecoder/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\app\PccAppDecoder\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/app/PccAppEncoder/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\app\PccAppEncoder\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/app/PccAppMetrics/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\app\PccAppMetrics\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/app/PccAppNormalGenerator/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\app\PccAppNormalGenerator\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/app/PccAppParser/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\app\PccAppParser\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/app/PccAppVideoDecoder/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\app\PccAppVideoDecoder\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/app/PccAppVideoEncoder/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\app\PccAppVideoEncoder\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\lib\PccLibBitstreamCommon\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCConfig.h.in">
+			<Option virtualFolder="CMake Files\source\lib\PccLibBitstreamCommon\include\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamReader/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\lib\PccLibBitstreamReader\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamWriter/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\lib\PccLibBitstreamWriter\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibColorConverter/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\lib\PccLibColorConverter\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\lib\PccLibCommon\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/include/PCCConfig.h.in">
+			<Option virtualFolder="CMake Files\source\lib\PccLibCommon\include\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibConformance/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\lib\PccLibConformance\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibDecoder/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\lib\PccLibDecoder\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibEncoder/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\lib\PccLibEncoder\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibMetrics/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\lib\PccLibMetrics\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoDecoder/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\lib\PccLibVideoDecoder\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoEncoder/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\lib\PccLibVideoEncoder\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/PccLibHevcParser/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\PccLibHevcParser\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/cmake/clang.cmake">
+			<Option virtualFolder="CMake Files\dependencies\cmake\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/cmake/vtm.cmake">
+			<Option virtualFolder="CMake Files\dependencies\cmake\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\tbb\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/build/version_string.ver.in">
+			<Option virtualFolder="CMake Files\dependencies\tbb\build\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

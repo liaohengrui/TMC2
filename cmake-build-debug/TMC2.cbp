@@ -1,0 +1,3053 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="TMC2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\source\;CMake Files\source\app\;CMake Files\source\app\PccAppColorConverter\;CMake Files\source\app\PccAppConformance\;CMake Files\source\app\PccAppDecoder\;CMake Files\source\app\PccAppEncoder\;CMake Files\source\app\PccAppMetrics\;CMake Files\source\app\PccAppNormalGenerator\;CMake Files\source\app\PccAppParser\;CMake Files\source\app\PccAppVideoDecoder\;CMake Files\source\app\PccAppVideoEncoder\;CMake Files\source\lib\;CMake Files\source\lib\PccLibBitstreamCommon\;CMake Files\source\lib\PccLibBitstreamCommon\include\;CMake Files\source\lib\PccLibBitstreamReader\;CMake Files\source\lib\PccLibBitstreamWriter\;CMake Files\source\lib\PccLibColorConverter\;CMake Files\source\lib\PccLibCommon\;CMake Files\source\lib\PccLibCommon\include\;CMake Files\source\lib\PccLibConformance\;CMake Files\source\lib\PccLibDecoder\;CMake Files\source\lib\PccLibEncoder\;CMake Files\source\lib\PccLibMetrics\;CMake Files\source\lib\PccLibVideoDecoder\;CMake Files\source\lib\PccLibVideoEncoder\;CMake Files\dependencies\;CMake Files\dependencies\PccLibHevcParser\;CMake Files\dependencies\cmake\;CMake Files\dependencies\tbb\;CMake Files\dependencies\tbb\build\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EncoderLib_vtm">
+				<Option output="/home/admin/mpeg-pcc-tmc2/lib/libEncoderLib_vtm.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/."/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/.."/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/x86"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 EncoderLib_vtm"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EncoderLib_vtm/fast">
+				<Option output="/home/admin/mpeg-pcc-tmc2/lib/libEncoderLib_vtm.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/."/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/.."/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/x86"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 EncoderLib_vtm/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DecoderLib_vtm">
+				<Option output="/home/admin/mpeg-pcc-tmc2/lib/libDecoderLib_vtm.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/."/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/.."/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/x86"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 DecoderLib_vtm"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DecoderLib_vtm/fast">
+				<Option output="/home/admin/mpeg-pcc-tmc2/lib/libDecoderLib_vtm.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/."/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/.."/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/x86"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 DecoderLib_vtm/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Utilities_vtm">
+				<Option output="/home/admin/mpeg-pcc-tmc2/lib/libUtilities_vtm.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/."/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/.."/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/x86"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Utilities_vtm"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Utilities_vtm/fast">
+				<Option output="/home/admin/mpeg-pcc-tmc2/lib/libUtilities_vtm.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/."/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/.."/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/x86"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Utilities_vtm/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CommonLib">
+				<Option output="/home/admin/mpeg-pcc-tmc2/lib/libCommonLib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/."/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/.."/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/x86"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 CommonLib"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CommonLib/fast">
+				<Option output="/home/admin/mpeg-pcc-tmc2/lib/libCommonLib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/."/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/.."/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/x86"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 CommonLib/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libmd5_vtm">
+				<Option output="/home/admin/mpeg-pcc-tmc2/lib/liblibmd5_vtm.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 libmd5_vtm"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libmd5_vtm/fast">
+				<Option output="/home/admin/mpeg-pcc-tmc2/lib/liblibmd5_vtm.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 libmd5_vtm/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tbb_static">
+				<Option output="/home/admin/mpeg-pcc-tmc2/lib/libtbb_static.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/cmake-build-debug/dependencies/tbb"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__TBB_BUILD=1"/>
+					<Add option="-DDO_ITT_NOTIFY"/>
+					<Add option="-DUSE_PTHREAD"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/rml/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/cmake-build-debug/dependencies/tbb"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/dependencies/tbb/Makefile&quot;  VERBOSE=1 tbb_static"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/dependencies/tbb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/dependencies/tbb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/dependencies/tbb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tbb_static/fast">
+				<Option output="/home/admin/mpeg-pcc-tmc2/lib/libtbb_static.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/cmake-build-debug/dependencies/tbb"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__TBB_BUILD=1"/>
+					<Add option="-DDO_ITT_NOTIFY"/>
+					<Add option="-DUSE_PTHREAD"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/rml/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/cmake-build-debug/dependencies/tbb"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/dependencies/tbb/Makefile&quot;  VERBOSE=1 tbb_static/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/dependencies/tbb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/dependencies/tbb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/dependencies/tbb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tbb_def_files">
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/cmake-build-debug/dependencies/tbb"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/dependencies/tbb/Makefile&quot;  VERBOSE=1 tbb_def_files"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/dependencies/tbb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/dependencies/tbb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/dependencies/tbb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PccLibHevcParser">
+				<Option output="/home/admin/mpeg-pcc-tmc2/lib/libPccLibHevcParser.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/cmake-build-debug/dependencies/PccLibHevcParser"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/PccLibHevcParser/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/dependencies/PccLibHevcParser/Makefile&quot;  VERBOSE=1 PccLibHevcParser"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/dependencies/PccLibHevcParser/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/dependencies/PccLibHevcParser/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/dependencies/PccLibHevcParser/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PccLibHevcParser/fast">
+				<Option output="/home/admin/mpeg-pcc-tmc2/lib/libPccLibHevcParser.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/cmake-build-debug/dependencies/PccLibHevcParser"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/PccLibHevcParser/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/dependencies/PccLibHevcParser/Makefile&quot;  VERBOSE=1 PccLibHevcParser/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/dependencies/PccLibHevcParser/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/dependencies/PccLibHevcParser/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/dependencies/PccLibHevcParser/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PccLibVideoDecoder">
+				<Option output="/home/admin/mpeg-pcc-tmc2/lib/libPccLibVideoDecoder.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibVideoDecoder"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoDecoder/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/."/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/.."/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/x86"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibVideoDecoder/Makefile&quot;  VERBOSE=1 PccLibVideoDecoder"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibVideoDecoder/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibVideoDecoder/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibVideoDecoder/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PccLibVideoDecoder/fast">
+				<Option output="/home/admin/mpeg-pcc-tmc2/lib/libPccLibVideoDecoder.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibVideoDecoder"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoDecoder/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/."/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/.."/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/x86"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibVideoDecoder/Makefile&quot;  VERBOSE=1 PccLibVideoDecoder/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibVideoDecoder/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibVideoDecoder/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibVideoDecoder/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PccLibVideoEncoder">
+				<Option output="/home/admin/mpeg-pcc-tmc2/lib/libPccLibVideoEncoder.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibVideoEncoder"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoEncoder/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/."/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/.."/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/x86"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibVideoEncoder/Makefile&quot;  VERBOSE=1 PccLibVideoEncoder"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibVideoEncoder/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibVideoEncoder/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibVideoEncoder/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PccLibVideoEncoder/fast">
+				<Option output="/home/admin/mpeg-pcc-tmc2/lib/libPccLibVideoEncoder.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibVideoEncoder"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoEncoder/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/."/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/.."/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/x86"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibVideoEncoder/Makefile&quot;  VERBOSE=1 PccLibVideoEncoder/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibVideoEncoder/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibVideoEncoder/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibVideoEncoder/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PccLibColorConverter">
+				<Option output="/home/admin/mpeg-pcc-tmc2/lib/libPccLibColorConverter.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibColorConverter"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibColorConverter/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include"/>
+					<Add directory="/common/inc"/>
+					<Add directory="/projects/HDRConvert/inc"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibColorConverter/Makefile&quot;  VERBOSE=1 PccLibColorConverter"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibColorConverter/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibColorConverter/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibColorConverter/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PccLibColorConverter/fast">
+				<Option output="/home/admin/mpeg-pcc-tmc2/lib/libPccLibColorConverter.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibColorConverter"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibColorConverter/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include"/>
+					<Add directory="/common/inc"/>
+					<Add directory="/projects/HDRConvert/inc"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibColorConverter/Makefile&quot;  VERBOSE=1 PccLibColorConverter/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibColorConverter/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibColorConverter/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibColorConverter/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PccLibBitstreamCommon">
+				<Option output="/home/admin/mpeg-pcc-tmc2/lib/libPccLibBitstreamCommon.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibBitstreamCommon"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/libmd5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibBitstreamCommon/Makefile&quot;  VERBOSE=1 PccLibBitstreamCommon"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibBitstreamCommon/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibBitstreamCommon/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibBitstreamCommon/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PccLibBitstreamCommon/fast">
+				<Option output="/home/admin/mpeg-pcc-tmc2/lib/libPccLibBitstreamCommon.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibBitstreamCommon"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/libmd5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibBitstreamCommon/Makefile&quot;  VERBOSE=1 PccLibBitstreamCommon/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibBitstreamCommon/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibBitstreamCommon/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibBitstreamCommon/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PccLibBitstreamWriter">
+				<Option output="/home/admin/mpeg-pcc-tmc2/lib/libPccLibBitstreamWriter.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibBitstreamWriter"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamWriter/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibBitstreamWriter/Makefile&quot;  VERBOSE=1 PccLibBitstreamWriter"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibBitstreamWriter/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibBitstreamWriter/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibBitstreamWriter/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PccLibBitstreamWriter/fast">
+				<Option output="/home/admin/mpeg-pcc-tmc2/lib/libPccLibBitstreamWriter.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibBitstreamWriter"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamWriter/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibBitstreamWriter/Makefile&quot;  VERBOSE=1 PccLibBitstreamWriter/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibBitstreamWriter/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibBitstreamWriter/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibBitstreamWriter/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PccLibBitstreamReader">
+				<Option output="/home/admin/mpeg-pcc-tmc2/lib/libPccLibBitstreamReader.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibBitstreamReader"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamReader/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibBitstreamReader/Makefile&quot;  VERBOSE=1 PccLibBitstreamReader"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibBitstreamReader/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibBitstreamReader/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibBitstreamReader/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PccLibBitstreamReader/fast">
+				<Option output="/home/admin/mpeg-pcc-tmc2/lib/libPccLibBitstreamReader.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibBitstreamReader"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamReader/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibBitstreamReader/Makefile&quot;  VERBOSE=1 PccLibBitstreamReader/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibBitstreamReader/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibBitstreamReader/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibBitstreamReader/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PccLibCommon">
+				<Option output="/home/admin/mpeg-pcc-tmc2/lib/libPccLibCommon.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibCommon"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/nanoflann"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/libmd5"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibCommon/Makefile&quot;  VERBOSE=1 PccLibCommon"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibCommon/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibCommon/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibCommon/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PccLibCommon/fast">
+				<Option output="/home/admin/mpeg-pcc-tmc2/lib/libPccLibCommon.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibCommon"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/nanoflann"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/libmd5"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibCommon/Makefile&quot;  VERBOSE=1 PccLibCommon/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibCommon/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibCommon/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibCommon/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PccLibDecoder">
+				<Option output="/home/admin/mpeg-pcc-tmc2/lib/libPccLibDecoder.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibDecoder"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibDecoder/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoDecoder/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/nanoflann"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibColorConverter/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/."/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/.."/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/x86"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibDecoder/Makefile&quot;  VERBOSE=1 PccLibDecoder"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibDecoder/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibDecoder/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibDecoder/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PccLibDecoder/fast">
+				<Option output="/home/admin/mpeg-pcc-tmc2/lib/libPccLibDecoder.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibDecoder"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibDecoder/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoDecoder/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/nanoflann"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibColorConverter/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/."/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/.."/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/x86"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibDecoder/Makefile&quot;  VERBOSE=1 PccLibDecoder/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibDecoder/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibDecoder/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibDecoder/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PccLibEncoder">
+				<Option output="/home/admin/mpeg-pcc-tmc2/lib/libPccLibEncoder.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibEncoder"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibEncoder/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoEncoder/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibColorConverter/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/nanoflann"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/."/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/.."/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/x86"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibEncoder/Makefile&quot;  VERBOSE=1 PccLibEncoder"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibEncoder/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibEncoder/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibEncoder/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PccLibEncoder/fast">
+				<Option output="/home/admin/mpeg-pcc-tmc2/lib/libPccLibEncoder.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibEncoder"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibEncoder/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoEncoder/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibColorConverter/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/nanoflann"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/."/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/.."/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/x86"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibEncoder/Makefile&quot;  VERBOSE=1 PccLibEncoder/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibEncoder/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibEncoder/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibEncoder/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PccLibMetrics">
+				<Option output="/home/admin/mpeg-pcc-tmc2/lib/libPccLibMetrics.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibMetrics"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibMetrics/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/nanoflann"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibMetrics/Makefile&quot;  VERBOSE=1 PccLibMetrics"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibMetrics/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibMetrics/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibMetrics/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PccLibMetrics/fast">
+				<Option output="/home/admin/mpeg-pcc-tmc2/lib/libPccLibMetrics.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibMetrics"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibMetrics/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/nanoflann"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibMetrics/Makefile&quot;  VERBOSE=1 PccLibMetrics/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibMetrics/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibMetrics/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibMetrics/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PccLibConformance">
+				<Option output="/home/admin/mpeg-pcc-tmc2/lib/libPccLibConformance.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibConformance"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibConformance/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibConformance/Makefile&quot;  VERBOSE=1 PccLibConformance"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibConformance/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibConformance/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibConformance/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PccLibConformance/fast">
+				<Option output="/home/admin/mpeg-pcc-tmc2/lib/libPccLibConformance.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibConformance"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibConformance/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibConformance/Makefile&quot;  VERBOSE=1 PccLibConformance/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibConformance/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibConformance/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibConformance/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PccAppParser">
+				<Option output="/home/admin/mpeg-pcc-tmc2/bin/PccAppParser" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamReader/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppParser/Makefile&quot;  VERBOSE=1 PccAppParser"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppParser/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppParser/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppParser/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PccAppParser/fast">
+				<Option output="/home/admin/mpeg-pcc-tmc2/bin/PccAppParser" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamReader/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppParser/Makefile&quot;  VERBOSE=1 PccAppParser/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppParser/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppParser/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppParser/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PccAppEncoder">
+				<Option output="/home/admin/mpeg-pcc-tmc2/bin/PccAppEncoder" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibEncoder/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibMetrics/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamWriter/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/program-options-lite"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/nanoflann"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/."/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/.."/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/x86"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppEncoder/Makefile&quot;  VERBOSE=1 PccAppEncoder"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppEncoder/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppEncoder/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppEncoder/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PccAppEncoder/fast">
+				<Option output="/home/admin/mpeg-pcc-tmc2/bin/PccAppEncoder" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibEncoder/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibMetrics/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamWriter/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/program-options-lite"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/nanoflann"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/."/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/.."/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/x86"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppEncoder/Makefile&quot;  VERBOSE=1 PccAppEncoder/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppEncoder/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppEncoder/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppEncoder/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PccAppDecoder">
+				<Option output="/home/admin/mpeg-pcc-tmc2/bin/PccAppDecoder" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibDecoder/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibMetrics/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibConformance/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamReader/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/program-options-lite"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/."/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/.."/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/x86"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppDecoder/Makefile&quot;  VERBOSE=1 PccAppDecoder"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppDecoder/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppDecoder/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppDecoder/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PccAppDecoder/fast">
+				<Option output="/home/admin/mpeg-pcc-tmc2/bin/PccAppDecoder" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibDecoder/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibMetrics/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibConformance/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamReader/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/program-options-lite"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/."/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/.."/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/x86"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppDecoder/Makefile&quot;  VERBOSE=1 PccAppDecoder/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppDecoder/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppDecoder/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppDecoder/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PccAppMetrics">
+				<Option output="/home/admin/mpeg-pcc-tmc2/bin/PccAppMetrics" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibMetrics/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/program-options-lite"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppMetrics/Makefile&quot;  VERBOSE=1 PccAppMetrics"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppMetrics/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppMetrics/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppMetrics/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PccAppMetrics/fast">
+				<Option output="/home/admin/mpeg-pcc-tmc2/bin/PccAppMetrics" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibMetrics/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/program-options-lite"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppMetrics/Makefile&quot;  VERBOSE=1 PccAppMetrics/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppMetrics/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppMetrics/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppMetrics/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PccAppConformance">
+				<Option output="/home/admin/mpeg-pcc-tmc2/bin/PccAppConformance" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibConformance/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/program-options-lite"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppConformance/Makefile&quot;  VERBOSE=1 PccAppConformance"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppConformance/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppConformance/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppConformance/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PccAppConformance/fast">
+				<Option output="/home/admin/mpeg-pcc-tmc2/bin/PccAppConformance" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibConformance/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/program-options-lite"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppConformance/Makefile&quot;  VERBOSE=1 PccAppConformance/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppConformance/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppConformance/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppConformance/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PccAppVideoEncoder">
+				<Option output="/home/admin/mpeg-pcc-tmc2/bin/PccAppVideoEncoder" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoEncoder/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/program-options-lite"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/."/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/.."/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/x86"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppVideoEncoder/Makefile&quot;  VERBOSE=1 PccAppVideoEncoder"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppVideoEncoder/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppVideoEncoder/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppVideoEncoder/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PccAppVideoEncoder/fast">
+				<Option output="/home/admin/mpeg-pcc-tmc2/bin/PccAppVideoEncoder" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoEncoder/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/program-options-lite"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/."/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/.."/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/x86"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppVideoEncoder/Makefile&quot;  VERBOSE=1 PccAppVideoEncoder/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppVideoEncoder/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppVideoEncoder/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppVideoEncoder/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PccAppVideoDecoder">
+				<Option output="/home/admin/mpeg-pcc-tmc2/bin/PccAppVideoDecoder" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoDecoder/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/program-options-lite"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/."/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/.."/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/x86"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppVideoDecoder/Makefile&quot;  VERBOSE=1 PccAppVideoDecoder"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppVideoDecoder/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppVideoDecoder/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppVideoDecoder/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PccAppVideoDecoder/fast">
+				<Option output="/home/admin/mpeg-pcc-tmc2/bin/PccAppVideoDecoder" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoDecoder/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/program-options-lite"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/."/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/.."/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/x86"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppVideoDecoder/Makefile&quot;  VERBOSE=1 PccAppVideoDecoder/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppVideoDecoder/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppVideoDecoder/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppVideoDecoder/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PccAppColorConverter">
+				<Option output="/home/admin/mpeg-pcc-tmc2/bin/PccAppColorConverter" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibColorConverter/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/program-options-lite"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppColorConverter/Makefile&quot;  VERBOSE=1 PccAppColorConverter"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppColorConverter/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppColorConverter/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppColorConverter/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PccAppColorConverter/fast">
+				<Option output="/home/admin/mpeg-pcc-tmc2/bin/PccAppColorConverter" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibColorConverter/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/program-options-lite"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppColorConverter/Makefile&quot;  VERBOSE=1 PccAppColorConverter/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppColorConverter/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppColorConverter/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppColorConverter/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PccAppNormalGenerator">
+				<Option output="/home/admin/mpeg-pcc-tmc2/bin/PccAppNormalGenerator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibEncoder/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/program-options-lite"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/nanoflann"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/."/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/.."/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/x86"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppNormalGenerator/Makefile&quot;  VERBOSE=1 PccAppNormalGenerator"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppNormalGenerator/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppNormalGenerator/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppNormalGenerator/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PccAppNormalGenerator/fast">
+				<Option output="/home/admin/mpeg-pcc-tmc2/bin/PccAppNormalGenerator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibEncoder/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/program-options-lite"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/nanoflann"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/."/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/.."/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/x86"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppNormalGenerator/Makefile&quot;  VERBOSE=1 PccAppNormalGenerator/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppNormalGenerator/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppNormalGenerator/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppNormalGenerator/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/PccLibHevcParser/include/PccHevcCommonDef.h">
+			<Option target="PccLibHevcParser"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/PccLibHevcParser/include/PccHevcContextTables.h">
+			<Option target="PccLibHevcParser"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/PccLibHevcParser/include/PccHevcDebug.h">
+			<Option target="PccLibHevcParser"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/PccLibHevcParser/include/PccHevcParser.h">
+			<Option target="PccLibHevcParser"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/PccLibHevcParser/include/PccHevcSEI.h">
+			<Option target="PccLibHevcParser"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/PccLibHevcParser/include/PccHevcTComBitStream.h">
+			<Option target="PccLibHevcParser"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/PccLibHevcParser/include/PccHevcTComChromaFormat.h">
+			<Option target="PccLibHevcParser"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/PccLibHevcParser/include/PccHevcTComList.h">
+			<Option target="PccLibHevcParser"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/PccLibHevcParser/include/PccHevcTComRectangle.h">
+			<Option target="PccLibHevcParser"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/PccLibHevcParser/include/PccHevcTComRom.h">
+			<Option target="PccLibHevcParser"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/PccLibHevcParser/include/PccHevcTComSlice.h">
+			<Option target="PccLibHevcParser"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/PccLibHevcParser/include/PccHevcTDecCAVLC.h">
+			<Option target="PccLibHevcParser"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/PccLibHevcParser/include/PccHevcTypeDef.h">
+			<Option target="PccLibHevcParser"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/PccLibHevcParser/source/PccHevcDebug.cpp">
+			<Option target="PccLibHevcParser"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/PccLibHevcParser/source/PccHevcParser.cpp">
+			<Option target="PccLibHevcParser"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/PccLibHevcParser/source/PccHevcSEI.cpp">
+			<Option target="PccLibHevcParser"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/PccLibHevcParser/source/PccHevcTComBitStream.cpp">
+			<Option target="PccLibHevcParser"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/PccLibHevcParser/source/PccHevcTComRom.cpp">
+			<Option target="PccLibHevcParser"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/PccLibHevcParser/source/PccHevcTComSlice.cpp">
+			<Option target="PccLibHevcParser"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/PccLibHevcParser/source/PccHevcTDecCAVLC.cpp">
+			<Option target="PccLibHevcParser"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/AdaptiveLoopFilter.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/AdaptiveLoopFilter.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/AffineGradientSearch.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/AffineGradientSearch.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/AlfParameters.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/BitStream.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/BitStream.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/Buffer.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/Buffer.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/CacheModel.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/CacheModel.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/ChromaFormat.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/ChromaFormat.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/CodingStatistics.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/CodingStructure.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/CodingStructure.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/Common.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/CommonDef.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/ContextModelling.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/ContextModelling.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/Contexts.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/Contexts.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/DeblockingFilter.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/DeblockingFilter.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/DepQuant.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/DepQuant.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/HRD.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/HRD.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/Hash.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/Hash.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/IbcHashMap.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/IbcHashMap.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/InterPrediction.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/InterPrediction.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/InterpolationFilter.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/InterpolationFilter.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/IntraPrediction.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/IntraPrediction.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/MCTS.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/MCTS.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/MatrixIntraPrediction.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/MatrixIntraPrediction.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/MipData.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/MotionInfo.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/Mv.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/Mv.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/NAL.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/ParameterSetManager.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/ParameterSetManager.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/PicYuvMD5.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/Picture.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/Picture.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/ProfileLevelTier.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/ProfileLevelTier.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/Quant.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/Quant.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/QuantRDOQ.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/QuantRDOQ.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/RdCost.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/RdCost.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/RdCostWeightPrediction.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/RdCostWeightPrediction.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/Reshape.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/Reshape.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/Rom.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/Rom.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/RomLFNST.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/RomTr.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/SEI.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/SEI.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/SampleAdaptiveOffset.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/SampleAdaptiveOffset.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/Slice.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/Slice.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/TrQuant.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/TrQuant.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/TrQuant_EMT.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/TrQuant_EMT.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/TypeDef.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/Unit.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/Unit.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/UnitPartitioner.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/UnitPartitioner.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/UnitTools.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/UnitTools.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/WeightPrediction.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/WeightPrediction.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/dtrace.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/dtrace.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/dtrace_blockstatistics.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/dtrace_blockstatistics.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/dtrace_buffer.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/dtrace_codingstruct.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/dtrace_next.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/version.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/x86/AdaptiveLoopFilterX86.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/x86/AffineGradientSearchX86.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/x86/BufferX86.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/x86/CommonDefX86.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/x86/CommonDefX86.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/x86/IbcHashMapX86.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/x86/InitX86.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/x86/InterpolationFilterX86.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/x86/RdCostX86.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/x86/avx/AdaptiveLoopFilter_avx.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/x86/avx/AffineGradientSearch_avx.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/x86/avx/Buffer_avx.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/x86/avx/InterpolationFilter_avx.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/x86/avx/RdCost_avx.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/x86/avx2/AdaptiveLoopFilter_avx2.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/x86/avx2/AffineGradientSearch_avx2.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/x86/avx2/Buffer_avx2.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/x86/avx2/InterpolationFilter_avx2.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/x86/avx2/RdCost_avx2.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/x86/sse41/AdaptiveLoopFilter_sse41.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/x86/sse41/AffineGradientSearch_sse41.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/x86/sse41/Buffer_sse41.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/x86/sse41/InterpolationFilter_sse41.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/x86/sse41/RdCost_sse41.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/x86/sse42/IbcHashmap_sse42.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/DecoderLib/AnnexBread.cpp">
+			<Option target="DecoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/DecoderLib/AnnexBread.h">
+			<Option target="DecoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/DecoderLib/BinDecoder.cpp">
+			<Option target="DecoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/DecoderLib/BinDecoder.h">
+			<Option target="DecoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/DecoderLib/CABACReader.cpp">
+			<Option target="DecoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/DecoderLib/CABACReader.h">
+			<Option target="DecoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/DecoderLib/DecCu.cpp">
+			<Option target="DecoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/DecoderLib/DecCu.h">
+			<Option target="DecoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/DecoderLib/DecLib.cpp">
+			<Option target="DecoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/DecoderLib/DecLib.h">
+			<Option target="DecoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/DecoderLib/DecSlice.cpp">
+			<Option target="DecoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/DecoderLib/DecSlice.h">
+			<Option target="DecoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/DecoderLib/NALread.cpp">
+			<Option target="DecoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/DecoderLib/NALread.h">
+			<Option target="DecoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/DecoderLib/SEIread.cpp">
+			<Option target="DecoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/DecoderLib/SEIread.h">
+			<Option target="DecoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/DecoderLib/VLCReader.cpp">
+			<Option target="DecoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/DecoderLib/VLCReader.h">
+			<Option target="DecoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/AQp.cpp">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/AQp.h">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/Analyze.h">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/AnnexBwrite.h">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/BinEncoder.cpp">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/BinEncoder.h">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/CABACWriter.cpp">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/CABACWriter.h">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/EncAdaptiveLoopFilter.cpp">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/EncAdaptiveLoopFilter.h">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/EncCfg.h">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/EncCfgParam.h">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/EncCu.cpp">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/EncCu.h">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/EncGOP.cpp">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/EncGOP.h">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/EncHRD.cpp">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/EncHRD.h">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/EncLib.cpp">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/EncLib.h">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/EncLibCommon.cpp">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/EncLibCommon.h">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/EncModeCtrl.cpp">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/EncModeCtrl.h">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/EncReshape.cpp">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/EncReshape.h">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/EncSampleAdaptiveOffset.cpp">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/EncSampleAdaptiveOffset.h">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/EncSlice.cpp">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/EncSlice.h">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/EncTemporalFilter.cpp">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/EncTemporalFilter.h">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/InterSearch.cpp">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/InterSearch.h">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/IntraSearch.cpp">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/IntraSearch.h">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/NALwrite.cpp">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/NALwrite.h">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/PartitionGlobalManager.h">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/PartitionManager.cpp">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/PartitionManager.h">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/PartitionParam.cpp">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/PartitionParam.h">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/PartitionPrediction.cpp">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/PartitionPrediction.h">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/PartitionTree.cpp">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/PartitionTree.h">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/PartitionUtils.cpp">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/PartitionUtils.h">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/RateCtrl.cpp">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/RateCtrl.h">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/SEIEncoder.cpp">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/SEIEncoder.h">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/SEIwrite.cpp">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/SEIwrite.h">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/VLCWriter.cpp">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/VLCWriter.h">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/WeightPredAnalysis.cpp">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/EncoderLib/WeightPredAnalysis.h">
+			<Option target="EncoderLib_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/Utilities/VideoIOYuv.cpp">
+			<Option target="Utilities_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/Utilities/VideoIOYuv.h">
+			<Option target="Utilities_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/Utilities/program_options_lite.cpp">
+			<Option target="Utilities_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/Utilities/program_options_lite.h">
+			<Option target="Utilities_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/libmd5/MD5.h">
+			<Option target="libmd5_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/libmd5/libmd5.cpp">
+			<Option target="libmd5_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/libmd5/libmd5.h">
+			<Option target="libmd5_vtm"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/libmd5/MD5.h">
+			<Option target="PccLibBitstreamCommon"/>
+			<Option target="PccLibCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/libmd5/libmd5.c">
+			<Option target="PccLibBitstreamCommon"/>
+			<Option target="PccLibCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/libmd5/libmd5.h">
+			<Option target="PccLibBitstreamCommon"/>
+			<Option target="PccLibCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/nanoflann/KDTreeVectorOfVectorsAdaptor.h">
+			<Option target="PccLibCommon"/>
+			<Option target="PccLibDecoder"/>
+			<Option target="PccLibEncoder"/>
+			<Option target="PccLibMetrics"/>
+			<Option target="PccAppEncoder"/>
+			<Option target="PccAppNormalGenerator"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/nanoflann/nanoflann.hpp">
+			<Option target="PccLibCommon"/>
+			<Option target="PccLibDecoder"/>
+			<Option target="PccLibEncoder"/>
+			<Option target="PccLibMetrics"/>
+			<Option target="PccAppEncoder"/>
+			<Option target="PccAppNormalGenerator"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/program-options-lite/program_options_lite.cpp">
+			<Option target="PccAppEncoder"/>
+			<Option target="PccAppDecoder"/>
+			<Option target="PccAppMetrics"/>
+			<Option target="PccAppConformance"/>
+			<Option target="PccAppVideoEncoder"/>
+			<Option target="PccAppVideoDecoder"/>
+			<Option target="PccAppColorConverter"/>
+			<Option target="PccAppNormalGenerator"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/program-options-lite/program_options_lite.h">
+			<Option target="PccAppEncoder"/>
+			<Option target="PccAppDecoder"/>
+			<Option target="PccAppMetrics"/>
+			<Option target="PccAppConformance"/>
+			<Option target="PccAppVideoEncoder"/>
+			<Option target="PccAppVideoDecoder"/>
+			<Option target="PccAppColorConverter"/>
+			<Option target="PccAppNormalGenerator"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/old/concurrent_queue_v2.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/old/concurrent_queue_v2.h">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/old/concurrent_vector_v2.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/old/concurrent_vector_v2.h">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/old/spin_rw_mutex_v2.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/old/spin_rw_mutex_v2.h">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/old/task_v2.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/rml/client/rml_tbb.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/arena.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/arena.h">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/cache_aligned_allocator.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/concurrent_hash_map.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/concurrent_monitor.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/concurrent_monitor.h">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/concurrent_queue.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/concurrent_vector.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/condition_variable.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/critical_section.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/dynamic_link.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/dynamic_link.h">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/governor.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/governor.h">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/itt_notify.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/itt_notify.h">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/lin64-tbb-export.def">
+			<Option target="tbb_def_files"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/market.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/market.h">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/mutex.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/observer_proxy.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/observer_proxy.h">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/pipeline.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/private_server.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/queuing_mutex.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/queuing_rw_mutex.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/reader_writer_lock.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/recursive_mutex.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/scheduler.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/scheduler.h">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/semaphore.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/semaphore.h">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/spin_mutex.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/spin_rw_mutex.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/task.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/task_group_context.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/tbb_main.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/tbb_main.h">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/tbb_misc.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/tbb_misc.h">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/tbb_misc_ex.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/tbb_statistics.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/tbb_statistics.h">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/tbb_thread.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbb/x86_rtm_rw_mutex.cpp">
+			<Option target="tbb_static"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/src/tbbmalloc/lin64-tbbmalloc-export.def">
+			<Option target="tbb_def_files"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/app/PccAppColorConverter/PccAppColorConverter.cpp">
+			<Option target="PccAppColorConverter"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/app/PccAppConformance/PccAppConformance.cpp">
+			<Option target="PccAppConformance"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/app/PccAppDecoder/PccAppDecoder.cpp">
+			<Option target="PccAppDecoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/app/PccAppEncoder/PccAppEncoder.cpp">
+			<Option target="PccAppEncoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/app/PccAppMetrics/PccAppMetrics.cpp">
+			<Option target="PccAppMetrics"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/app/PccAppNormalGenerator/PccAppNormalGenerator.cpp">
+			<Option target="PccAppNormalGenerator"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/app/PccAppParser/PccAppParser.cpp">
+			<Option target="PccAppParser"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/app/PccAppVideoDecoder/PccAppVideoDecoder.cpp">
+			<Option target="PccAppVideoDecoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/app/PccAppVideoEncoder/PccAppVideoEncoder.cpp">
+			<Option target="PccAppVideoEncoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCAccessUnitDelimiterRbsp.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCAtlasAdaptationParameterSetRbsp.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCAtlasFrameParameterSetRbsp.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCAtlasFrameTileInformation.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCAtlasSequenceParameterSetRbsp.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCAtlasTileDataUnit.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCAtlasTileHeader.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCAtlasTileLayerRbsp.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCAttributeInformation.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCBitstream.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCBitstreamCommon.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCConfig.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCEOMPatchDataUnit.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCEndOfAtlasSubBitstreamRbsp.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCEndOfSequenceRbsp.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCFillerDataRbsp.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCGeometryInformation.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCHighLevelSyntax.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCInterPatchDataUnit.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCLogger.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCMergePatchDataUnit.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCNalUnit.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCOccupancyInformation.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCPLRData.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCPLRInformation.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCPatchDataUnit.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCPatchInformationData.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCProfileTierLevel.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCProfileToolsetConstraintsInformation.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCRawPatchDataUnit.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCRefListStruct.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCSampleStreamNalUnit.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCSampleStreamV3CUnit.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCSei.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCSkipPatchDataUnit.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCSupplementalEnhancementInformationRbsp.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCV3CParameterSet.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCV3CUnit.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCV3CUnitHeader.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCVUIParameters.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCVideoBitstream.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCVpccExtension.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/source/PCCBitstream.cpp">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/source/PCCHighLevelSyntax.cpp">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/source/PCCVideoBitstream.cpp">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamReader/include/PCCBitstreamReader.h">
+			<Option target="PccLibBitstreamReader"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamReader/source/PCCBitstreamReader.cpp">
+			<Option target="PccLibBitstreamReader"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamWriter/include/PCCBitstreamWriter.h">
+			<Option target="PccLibBitstreamWriter"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamWriter/source/PCCBitstreamWriter.cpp">
+			<Option target="PccLibBitstreamWriter"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibColorConverter/include/PCCHDRToolsAppColorConverter.h">
+			<Option target="PccLibColorConverter"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibColorConverter/include/PCCHDRToolsLibColorConverter.h">
+			<Option target="PccLibColorConverter"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibColorConverter/include/PCCHDRToolsLibColorConverterImpl.h">
+			<Option target="PccLibColorConverter"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibColorConverter/include/PCCInternalColorConverter.h">
+			<Option target="PccLibColorConverter"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibColorConverter/include/PCCVirtualColorConverter.h">
+			<Option target="PccLibColorConverter"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibColorConverter/source/PCCHDRToolsAppColorConverter.cpp">
+			<Option target="PccLibColorConverter"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibColorConverter/source/PCCHDRToolsLibColorConverter.cpp">
+			<Option target="PccLibColorConverter"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibColorConverter/source/PCCHDRToolsLibColorConverterImpl.cpp">
+			<Option target="PccLibColorConverter"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibColorConverter/source/PCCInternalColorConverter.cpp">
+			<Option target="PccLibColorConverter"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/include/PCCChrono.h">
+			<Option target="PccLibCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/include/PCCCodec.h">
+			<Option target="PccLibCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/include/PCCCommon.h">
+			<Option target="PccLibCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/include/PCCConfig.h">
+			<Option target="PccLibCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/include/PCCContext.h">
+			<Option target="PccLibCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/include/PCCFrameContext.h">
+			<Option target="PccLibCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/include/PCCGroupOfFrames.h">
+			<Option target="PccLibCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/include/PCCImage.h">
+			<Option target="PccLibCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/include/PCCKdTree.h">
+			<Option target="PccLibCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/include/PCCMath.h">
+			<Option target="PccLibCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/include/PCCMemory.h">
+			<Option target="PccLibCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/include/PCCPatch.h">
+			<Option target="PccLibCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/include/PCCPointSet.h">
+			<Option target="PccLibCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/include/PCCSystem.h">
+			<Option target="PccLibCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/include/PCCVideo.h">
+			<Option target="PccLibCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/source/PCCChrono.cpp">
+			<Option target="PccLibCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/source/PCCCodec.cpp">
+			<Option target="PccLibCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/source/PCCContext.cpp">
+			<Option target="PccLibCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/source/PCCFrameContext.cpp">
+			<Option target="PccLibCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/source/PCCGroupOfFrames.cpp">
+			<Option target="PccLibCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/source/PCCImage.cpp">
+			<Option target="PccLibCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/source/PCCKdTree.cpp">
+			<Option target="PccLibCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/source/PCCPatch.cpp">
+			<Option target="PccLibCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/source/PCCPointSet.cpp">
+			<Option target="PccLibCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/source/PCCSystem.cpp">
+			<Option target="PccLibCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/source/PCCVideo.cpp">
+			<Option target="PccLibCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibConformance/include/PCCConfigurationFileParser.h">
+			<Option target="PccLibConformance"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibConformance/include/PCCConformance.h">
+			<Option target="PccLibConformance"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibConformance/include/PCCConformanceParameters.h">
+			<Option target="PccLibConformance"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibConformance/source/PCCConfigurationFileParser.cpp">
+			<Option target="PccLibConformance"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibConformance/source/PCCConformance.cpp">
+			<Option target="PccLibConformance"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibConformance/source/PCCConformanceParameters.cpp">
+			<Option target="PccLibConformance"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibDecoder/include/PCCDecoder.h">
+			<Option target="PccLibDecoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibDecoder/include/PCCDecoderParameters.h">
+			<Option target="PccLibDecoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibDecoder/include/PCCVideoDecoder.h">
+			<Option target="PccLibDecoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibDecoder/source/PCCDecoder.cpp">
+			<Option target="PccLibDecoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibDecoder/source/PCCDecoderParameters.cpp">
+			<Option target="PccLibDecoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibDecoder/source/PCCVideoDecoder.cpp">
+			<Option target="PccLibDecoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibEncoder/include/PCCEncoder.h">
+			<Option target="PccLibEncoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibEncoder/include/PCCEncoderConstant.h">
+			<Option target="PccLibEncoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibEncoder/include/PCCEncoderParameters.h">
+			<Option target="PccLibEncoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibEncoder/include/PCCNormalsGenerator.h">
+			<Option target="PccLibEncoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibEncoder/include/PCCPatchSegmenter.h">
+			<Option target="PccLibEncoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibEncoder/include/PCCVideoEncoder.h">
+			<Option target="PccLibEncoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibEncoder/source/PCCEncoder.cpp">
+			<Option target="PccLibEncoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibEncoder/source/PCCEncoderParameters.cpp">
+			<Option target="PccLibEncoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibEncoder/source/PCCNormalsGenerator.cpp">
+			<Option target="PccLibEncoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibEncoder/source/PCCPatchSegmenter.cpp">
+			<Option target="PccLibEncoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibEncoder/source/PCCVideoEncoder.cpp">
+			<Option target="PccLibEncoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibMetrics/include/PCCChecksum.h">
+			<Option target="PccLibMetrics"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibMetrics/include/PCCMetrics.h">
+			<Option target="PccLibMetrics"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibMetrics/include/PCCMetricsParameters.h">
+			<Option target="PccLibMetrics"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibMetrics/source/PCCChecksum.cpp">
+			<Option target="PccLibMetrics"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibMetrics/source/PCCMetrics.cpp">
+			<Option target="PccLibMetrics"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibMetrics/source/PCCMetricsParameters.cpp">
+			<Option target="PccLibMetrics"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoDecoder/include/PCCHMAppVideoDecoder.h">
+			<Option target="PccLibVideoDecoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoDecoder/include/PCCHMLibVideoDecoder.h">
+			<Option target="PccLibVideoDecoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoDecoder/include/PCCHMLibVideoDecoderImpl.h">
+			<Option target="PccLibVideoDecoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoDecoder/include/PCCJMAppVideoDecoder.h">
+			<Option target="PccLibVideoDecoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoDecoder/include/PCCJMLibVideoDecoder.h">
+			<Option target="PccLibVideoDecoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoDecoder/include/PCCJMLibVideoDecoderImpl.h">
+			<Option target="PccLibVideoDecoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoDecoder/include/PCCSHMAppVideoDecoder.h">
+			<Option target="PccLibVideoDecoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoDecoder/include/PCCVTMLibVideoDecoder.h">
+			<Option target="PccLibVideoDecoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoDecoder/include/PCCVTMLibVideoDecoderCfg.h">
+			<Option target="PccLibVideoDecoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoDecoder/include/PCCVTMLibVideoDecoderImpl.h">
+			<Option target="PccLibVideoDecoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoDecoder/include/PCCVirtualVideoDecoder.h">
+			<Option target="PccLibVideoDecoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoDecoder/source/PCCHMAppVideoDecoder.cpp">
+			<Option target="PccLibVideoDecoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoDecoder/source/PCCHMLibVideoDecoder.cpp">
+			<Option target="PccLibVideoDecoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoDecoder/source/PCCHMLibVideoDecoderImpl.cpp">
+			<Option target="PccLibVideoDecoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoDecoder/source/PCCJMAppVideoDecoder.cpp">
+			<Option target="PccLibVideoDecoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoDecoder/source/PCCJMLibVideoDecoder.cpp">
+			<Option target="PccLibVideoDecoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoDecoder/source/PCCJMLibVideoDecoderImpl.cpp">
+			<Option target="PccLibVideoDecoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoDecoder/source/PCCSHMAppVideoDecoder.cpp">
+			<Option target="PccLibVideoDecoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoDecoder/source/PCCVTMLibVideoDecoder.cpp">
+			<Option target="PccLibVideoDecoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoDecoder/source/PCCVTMLibVideoDecoderImpl.cpp">
+			<Option target="PccLibVideoDecoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoDecoder/source/PCCVTMVideoDecoderCfg.cpp">
+			<Option target="PccLibVideoDecoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoDecoder/source/PCCVirtualVideoDecoder.cpp">
+			<Option target="PccLibVideoDecoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoEncoder/include/PCCHMAppVideoEncoder.h">
+			<Option target="PccLibVideoEncoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoEncoder/include/PCCHMLibVideoEncoder.h">
+			<Option target="PccLibVideoEncoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoEncoder/include/PCCHMLibVideoEncoderCfg.h">
+			<Option target="PccLibVideoEncoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoEncoder/include/PCCHMLibVideoEncoderImpl.h">
+			<Option target="PccLibVideoEncoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoEncoder/include/PCCJMAppVideoEncoder.h">
+			<Option target="PccLibVideoEncoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoEncoder/include/PCCJMLibVideoEncoder.h">
+			<Option target="PccLibVideoEncoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoEncoder/include/PCCJMLibVideoEncoderImpl.h">
+			<Option target="PccLibVideoEncoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoEncoder/include/PCCSHMAppVideoEncoder.h">
+			<Option target="PccLibVideoEncoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoEncoder/include/PCCVTMLibVideoEncoder.h">
+			<Option target="PccLibVideoEncoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoEncoder/include/PCCVTMLibVideoEncoderCfg.h">
+			<Option target="PccLibVideoEncoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoEncoder/include/PCCVTMLibVideoEncoderImpl.h">
+			<Option target="PccLibVideoEncoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoEncoder/include/PCCVirtualVideoEncoder.h">
+			<Option target="PccLibVideoEncoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoEncoder/source/PCCHMAppVideoEncoder.cpp">
+			<Option target="PccLibVideoEncoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoEncoder/source/PCCHMLibVideoEncoder.cpp">
+			<Option target="PccLibVideoEncoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoEncoder/source/PCCHMLibVideoEncoderImpl.cpp">
+			<Option target="PccLibVideoEncoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoEncoder/source/PCCHMVideoEncoderCfg.cpp">
+			<Option target="PccLibVideoEncoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoEncoder/source/PCCJMAppVideoEncoder.cpp">
+			<Option target="PccLibVideoEncoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoEncoder/source/PCCJMLibVideoEncoder.cpp">
+			<Option target="PccLibVideoEncoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoEncoder/source/PCCJMLibVideoEncoderImpl.cpp">
+			<Option target="PccLibVideoEncoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoEncoder/source/PCCSHMAppVideoEncoder.cpp">
+			<Option target="PccLibVideoEncoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoEncoder/source/PCCVTMLibVideoEncoder.cpp">
+			<Option target="PccLibVideoEncoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoEncoder/source/PCCVTMLibVideoEncoderImpl.cpp">
+			<Option target="PccLibVideoEncoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoEncoder/source/PCCVTMVideoEncoderCfg.cpp">
+			<Option target="PccLibVideoEncoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoEncoder/source/PCCVirtualVideoEncoder.cpp">
+			<Option target="PccLibVideoEncoder"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/app/PccAppColorConverter/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\app\PccAppColorConverter\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/app/PccAppConformance/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\app\PccAppConformance\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/app/PccAppDecoder/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\app\PccAppDecoder\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/app/PccAppEncoder/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\app\PccAppEncoder\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/app/PccAppMetrics/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\app\PccAppMetrics\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/app/PccAppNormalGenerator/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\app\PccAppNormalGenerator\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/app/PccAppParser/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\app\PccAppParser\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/app/PccAppVideoDecoder/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\app\PccAppVideoDecoder\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/app/PccAppVideoEncoder/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\app\PccAppVideoEncoder\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\lib\PccLibBitstreamCommon\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCConfig.h.in">
+			<Option virtualFolder="CMake Files\source\lib\PccLibBitstreamCommon\include\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamReader/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\lib\PccLibBitstreamReader\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamWriter/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\lib\PccLibBitstreamWriter\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibColorConverter/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\lib\PccLibColorConverter\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\lib\PccLibCommon\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/include/PCCConfig.h.in">
+			<Option virtualFolder="CMake Files\source\lib\PccLibCommon\include\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibConformance/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\lib\PccLibConformance\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibDecoder/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\lib\PccLibDecoder\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibEncoder/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\lib\PccLibEncoder\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibMetrics/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\lib\PccLibMetrics\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoDecoder/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\lib\PccLibVideoDecoder\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoEncoder/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\lib\PccLibVideoEncoder\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/PccLibHevcParser/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\PccLibHevcParser\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/cmake/clang.cmake">
+			<Option virtualFolder="CMake Files\dependencies\cmake\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/cmake/vtm.cmake">
+			<Option virtualFolder="CMake Files\dependencies\cmake\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\tbb\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/build/version_string.ver.in">
+			<Option virtualFolder="CMake Files\dependencies\tbb\build\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

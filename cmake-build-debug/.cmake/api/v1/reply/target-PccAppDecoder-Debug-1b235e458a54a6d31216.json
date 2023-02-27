@@ -1,0 +1,383 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "/home/admin/mpeg-pcc-tmc2/bin/PccAppDecoder"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"ADD_EXECUTABLE",
+			"INSTALL",
+			"link_directories",
+			"TARGET_LINK_LIBRARIES",
+			"include_directories",
+			"INCLUDE_DIRECTORIES"
+		],
+		"files" : 
+		[
+			"source/app/PccAppDecoder/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 25,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 4,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 33,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 3,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-w"
+				},
+				{
+					"fragment" : "-std=gnu++14"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "/home/admin/mpeg-pcc-tmc2/../LightGBM/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/admin/mpeg-pcc-tmc2/source/lib/PccLibDecoder/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/admin/mpeg-pcc-tmc2/source/lib/PccLibMetrics/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/admin/mpeg-pcc-tmc2/source/lib/PccLibConformance/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamReader/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/admin/mpeg-pcc-tmc2/dependencies/program-options-lite"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/admin/mpeg-pcc-tmc2/dependencies/tbb/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/."
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/.."
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib/CommonLib/x86"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/admin/mpeg-pcc-tmc2/dependencies/VTM/source/Lib"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					5
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				2
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "DecoderLib_vtm::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "CommonLib::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "libmd5_vtm::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "tbb_static::@f5f93f19e8091e07abf6"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "PccLibVideoDecoder::@bfbdf1ab87eff69f582d"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "PccLibColorConverter::@23bfe55e105cac077dda"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "PccLibBitstreamCommon::@822423bf142bd63fc945"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "PccLibBitstreamReader::@1a0b2b6ddc4604f07533"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "PccLibCommon::@eb309624775ee4f1223e"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "PccLibDecoder::@4e16dc0b7ba5edab02a2"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "PccLibMetrics::@61642ef451b1c0d72b5c"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "PccLibConformance::@8d8a4c22cf1d13077d82"
+		}
+	],
+	"id" : "PccAppDecoder::@915cc70401b8111ce5e3",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-rdynamic",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-L/home/admin/mpeg-pcc-tmc2/../LightGBM",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/admin/mpeg-pcc-tmc2/../LightGBM:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "-l_lightgbm",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../../../lib/libPccLibCommon.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../../../lib/libPccLibDecoder.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../../../lib/libPccLibMetrics.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../../../lib/libPccLibConformance.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../../../lib/libPccLibBitstreamCommon.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../../../lib/libPccLibBitstreamReader.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../../../lib/libtbb_static.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../lib/libPccLibVideoDecoder.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../lib/libDecoderLib_vtm.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../lib/libCommonLib.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../lib/liblibmd5_vtm.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../lib/libPccLibColorConverter.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../../../lib/libPccLibCommon.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../../../lib/libPccLibBitstreamCommon.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "-l_lightgbm",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "PccAppDecoder",
+	"nameOnDisk" : "PccAppDecoder",
+	"paths" : 
+	{
+		"build" : "source/app/PccAppDecoder",
+		"source" : "source/app/PccAppDecoder"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				2
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "dependencies/program-options-lite/program_options_lite.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "dependencies/program-options-lite/program_options_lite.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source/app/PccAppDecoder/PccAppDecoder.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

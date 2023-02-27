@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="PccLibBitstreamCommon"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\source\;CMake Files\source\app\;CMake Files\source\app\PccAppColorConverter\;CMake Files\source\app\PccAppConformance\;CMake Files\source\app\PccAppDecoder\;CMake Files\source\app\PccAppEncoder\;CMake Files\source\app\PccAppMetrics\;CMake Files\source\app\PccAppNormalGenerator\;CMake Files\source\app\PccAppParser\;CMake Files\source\app\PccAppVideoDecoder\;CMake Files\source\app\PccAppVideoEncoder\;CMake Files\source\lib\;CMake Files\source\lib\PccLibBitstreamCommon\;CMake Files\source\lib\PccLibBitstreamCommon\include\;CMake Files\source\lib\PccLibBitstreamReader\;CMake Files\source\lib\PccLibBitstreamWriter\;CMake Files\source\lib\PccLibColorConverter\;CMake Files\source\lib\PccLibCommon\;CMake Files\source\lib\PccLibCommon\include\;CMake Files\source\lib\PccLibConformance\;CMake Files\source\lib\PccLibDecoder\;CMake Files\source\lib\PccLibEncoder\;CMake Files\source\lib\PccLibMetrics\;CMake Files\source\lib\PccLibVideoDecoder\;CMake Files\source\lib\PccLibVideoEncoder\;CMake Files\dependencies\;CMake Files\dependencies\PccLibHevcParser\;CMake Files\dependencies\cmake\;CMake Files\dependencies\tbb\;CMake Files\dependencies\tbb\build\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibBitstreamCommon"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibBitstreamCommon/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibBitstreamCommon/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibBitstreamCommon/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibBitstreamCommon/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PccLibBitstreamCommon">
+				<Option output="/home/admin/mpeg-pcc-tmc2/lib/libPccLibBitstreamCommon.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibBitstreamCommon"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/libmd5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibBitstreamCommon/Makefile&quot;  VERBOSE=1 PccLibBitstreamCommon"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibBitstreamCommon/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibBitstreamCommon/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibBitstreamCommon/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PccLibBitstreamCommon/fast">
+				<Option output="/home/admin/mpeg-pcc-tmc2/lib/libPccLibBitstreamCommon.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibBitstreamCommon"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/../LightGBM/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include"/>
+					<Add directory="/home/admin/mpeg-pcc-tmc2/dependencies/libmd5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibBitstreamCommon/Makefile&quot;  VERBOSE=1 PccLibBitstreamCommon/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibBitstreamCommon/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibBitstreamCommon/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibBitstreamCommon/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/libmd5/MD5.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/libmd5/libmd5.c">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/libmd5/libmd5.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCAccessUnitDelimiterRbsp.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCAtlasAdaptationParameterSetRbsp.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCAtlasFrameParameterSetRbsp.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCAtlasFrameTileInformation.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCAtlasSequenceParameterSetRbsp.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCAtlasTileDataUnit.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCAtlasTileHeader.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCAtlasTileLayerRbsp.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCAttributeInformation.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCBitstream.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCBitstreamCommon.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCConfig.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCEOMPatchDataUnit.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCEndOfAtlasSubBitstreamRbsp.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCEndOfSequenceRbsp.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCFillerDataRbsp.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCGeometryInformation.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCHighLevelSyntax.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCInterPatchDataUnit.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCLogger.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCMergePatchDataUnit.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCNalUnit.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCOccupancyInformation.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCPLRData.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCPLRInformation.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCPatchDataUnit.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCPatchInformationData.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCProfileTierLevel.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCProfileToolsetConstraintsInformation.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCRawPatchDataUnit.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCRefListStruct.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCSampleStreamNalUnit.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCSampleStreamV3CUnit.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCSei.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCSkipPatchDataUnit.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCSupplementalEnhancementInformationRbsp.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCV3CParameterSet.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCV3CUnit.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCV3CUnitHeader.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCVUIParameters.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCVideoBitstream.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCVpccExtension.h">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/source/PCCBitstream.cpp">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/source/PCCHighLevelSyntax.cpp">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/source/PCCVideoBitstream.cpp">
+			<Option target="PccLibBitstreamCommon"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/app/PccAppColorConverter/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\app\PccAppColorConverter\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/app/PccAppConformance/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\app\PccAppConformance\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/app/PccAppDecoder/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\app\PccAppDecoder\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/app/PccAppEncoder/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\app\PccAppEncoder\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/app/PccAppMetrics/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\app\PccAppMetrics\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/app/PccAppNormalGenerator/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\app\PccAppNormalGenerator\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/app/PccAppParser/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\app\PccAppParser\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/app/PccAppVideoDecoder/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\app\PccAppVideoDecoder\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/app/PccAppVideoEncoder/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\app\PccAppVideoEncoder\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\lib\PccLibBitstreamCommon\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamCommon/include/PCCConfig.h.in">
+			<Option virtualFolder="CMake Files\source\lib\PccLibBitstreamCommon\include\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamReader/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\lib\PccLibBitstreamReader\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibBitstreamWriter/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\lib\PccLibBitstreamWriter\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibColorConverter/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\lib\PccLibColorConverter\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\lib\PccLibCommon\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibCommon/include/PCCConfig.h.in">
+			<Option virtualFolder="CMake Files\source\lib\PccLibCommon\include\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibConformance/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\lib\PccLibConformance\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibDecoder/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\lib\PccLibDecoder\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibEncoder/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\lib\PccLibEncoder\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibMetrics/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\lib\PccLibMetrics\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoDecoder/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\lib\PccLibVideoDecoder\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/source/lib/PccLibVideoEncoder/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\lib\PccLibVideoEncoder\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/PccLibHevcParser/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\PccLibHevcParser\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/cmake/clang.cmake">
+			<Option virtualFolder="CMake Files\dependencies\cmake\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/cmake/vtm.cmake">
+			<Option virtualFolder="CMake Files\dependencies\cmake\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\tbb\"/>
+		</Unit>
+		<Unit filename="/home/admin/mpeg-pcc-tmc2/dependencies/tbb/build/version_string.ver.in">
+			<Option virtualFolder="CMake Files\dependencies\tbb\build\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
