@@ -55,8 +55,7 @@ data/
 .idea
 DerivedData
 
-source/lib/PccLibCommon/include/PCCConfig.h
-source/lib/PccLibBitstreamCommon/include/PCCConfig.h
+
 
 /*.ply
 /*.bin
@@ -69,8 +68,7 @@ log.txt
 
 /.vscode/
 /dependencies/HM-16.20+SCM-8.8/
-/dependencies/HDRTools/
 /dependencies/jm19.0_lib/
 /dependencies/jm19.0_app/
 /dependencies/SHM-12.4/
-/dependencies/VTM/
+
