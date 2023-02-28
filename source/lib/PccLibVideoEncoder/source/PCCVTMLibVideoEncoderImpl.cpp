@@ -1240,6 +1240,10 @@ void PCCVTMLibVideoEncoderImpl<T>::xInitLibCfg() {
   m_cEncLib.setNumRefLayers( m_numRefLayers );
 
   m_cEncLib.setVPSParameters( m_cfgVPSParameters );
+
+
+
+
 }
 
 template <typename T>

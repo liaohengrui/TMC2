@@ -38,6 +38,36 @@
 #include "PCCVTMLibVideoEncoderImpl.h"
 #include "PCCVTMLibVideoEncoderCfg.h"
 #include "EncoderLib/EncLibCommon.h"
+#include "../../../../dependencies/VTM/source/App/EncoderApp/EncApp.h"
+
+#include <EncoderLib/PartitionManager.h>
+#include <EncoderLib/PartitionPrediction.h>
+
+//! \ingroup EncoderApp
+//! \{
+
+static const uint32_t settingNameWidth = 66;
+static const uint32_t settingHelpWidth = 84;
+static const uint32_t settingValueWidth = 3;
+// --------------------------------------------------------------------------------------------------------------------- //
+// Extern pointer to store and load the partition + current parameter
+PartitionManager * store_partition;
+PartitionManager * load_partition;
+PartitionParam * param_partition;
+PartitionPrediction * predict_partition;
+PartitionPrediction * predict_partitionInter;
+
+
+
+//fdeep::model *model = static_cast<fdeep::model *>(malloc(sizeof(fdeep::model)));
+//std::unique_ptr<fdeep::model> model;
+
+//string folder_model = "MODEL_DIRECTORY_HERE/cnn_model/" ;
+
+
+float time_cnn = 0;
+
+//macro value printing function
 
 using namespace pcc;
 
@@ -125,6 +155,69 @@ void PCCVTMLibVideoEncoder<T>::encode( PCCVideo<T, 3>&            videoSrc,
 
   encoder.createLib( 0 );
 
+
+  // Get partition param from config fileFF
+  param_partition = new PartitionParam(encoder.getM_uiCTUSize(), 6*3/*Because I decided to use 6*3 bits to encode MTT in dat file*/, encoder.is_writePartition(), encoder.is_readPartition(), encoder.is_predictPartition(), encoder.is_predictPartitionInter());
+
+  //sbelhadj added
+  string folder_model = encoder.get_modelFolder() ;
+  if (folder_model.substr(folder_model.length()-1) != "/") folder_model += "/" ;
+
+  if(param_partition->is_writePartition()){
+    //Get name of the input video to create dat file to save partition
+    std::size_t posEnd = encoder.get_filenameInput().find_last_of("/");
+    string filenameFeatures = encoder.get_filenameInput().substr(posEnd+1);
+    std::size_t pos = filenameFeatures.find(".yuv");
+    filenameFeatures = filenameFeatures.substr(0,pos);
+    filenameFeatures += "_partition_" + to_string(encoder.get_qp()) + ".dat";
+    filenameFeatures = encoder.get_datFolder() + "/" + filenameFeatures;
+    // Create pointer to store partition
+    store_partition = new PartitionManager(param_partition, (u_int16_t) encoder.get_sourceWidth(),
+                                            (u_int16_t) encoder.get_sourceHeight(), filenameFeatures, !param_partition->is_writePartition());
+    store_partition->store_params();
+  }
+
+  if(param_partition->is_readPartition()){
+    //Get name of the input video to create dat file to save partition
+    std::size_t posEnd = encoder.get_filenameInput().find_last_of("/");
+    string filenameFeatures = encoder.get_filenameInput().substr(posEnd+1);
+    std::size_t pos = filenameFeatures.find(".yuv");
+    filenameFeatures = filenameFeatures.substr(0,pos);
+    filenameFeatures += "_partition_" + to_string(encoder.get_qp()) + ".dat";
+    filenameFeatures = encoder.get_datFolder() + "/" + filenameFeatures;
+    // Create pointer to load partition
+    load_partition = new PartitionManager(param_partition, (u_int16_t) encoder.get_sourceWidth(),
+                                           (u_int16_t) encoder.get_sourceHeight(), filenameFeatures, param_partition->is_readPartition());
+    load_partition->load_params();
+  }
+
+  // load the model if we predict intra partition
+  if(param_partition->is_predictPartition() ){
+    clock_t start = clock();
+    //*model = fdeep::load_model(folder_model+"my_model_tech_db_filtered2020-05-13_15-05-43_0.094_0.094.json");
+
+    predict_partition = new PartitionPrediction(folder_model+"cnn_model/intra/model.json", encoder.get_qp(), true);
+
+    predict_partition->initializeModels("intra", folder_model);
+
+    time_cnn += ((double) clock() - start) / CLOCKS_PER_SEC;
+  }
+
+  // load the model if we predict inter partition
+  if(param_partition->is_predictPartitionInter() ){
+    clock_t start = clock();
+    // *model = fdeep::load_model(folder_model+"my_model_tech_db_filtered2020-05-13_15-05-43_0.094_0.094.json");
+
+    //    predict_partitionInter = new PartitionPrediction(folder_model+"inter/20220228_145317_benchmark_mobileNetV2_filteredData.json", pcEncApp.at(0)->get_qp(), false);
+    predict_partitionInter = new PartitionPrediction(folder_model+"cnn_model/inter/my_model_inter_3dim_mobilenetv2_batch256_100epoch_dbfilteredaugmented_gooddim_2021-04-19_15-31-43_0.04_0.044.json", encoder.get_qp(), false);
+
+    predict_partitionInter->initializeModels("inter", folder_model);
+
+    time_cnn += ((double) clock() - start) / CLOCKS_PER_SEC;
+  }
+
+
+
   auto        startTime  = std::chrono::steady_clock::now();
   std::time_t startTime2 = std::chrono::system_clock::to_time_t( std::chrono::system_clock::now() );
   fprintf( stdout, " started @ %s", std::ctime( &startTime2 ) );
@@ -197,6 +290,19 @@ void PCCVTMLibVideoEncoder<T>::encode( PCCVideo<T, 3>&            videoSrc,
   printf( " Total Time: %12.3f sec. [user] %12.3f sec. [elapsed]\n", ( endClock - startClock ) * 1.0 / CLOCKS_PER_SEC,
           encTime / 1000.0 );
 #endif
+
+  if(param_partition->is_predictPartition() || param_partition->is_predictPartitionInter()){
+    std::cout<<"Time in the CNN + utilization of result: "<<time_cnn<<std::endl;
+  }
+
+  // Delete pointer
+  delete param_partition;
+  delete store_partition;
+  delete load_partition;
+  delete predict_partition;
+  delete predict_partitionInter;
+
+
 }
 
 template class pcc::PCCVTMLibVideoEncoder<uint8_t>;

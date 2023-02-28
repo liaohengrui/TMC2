@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL"
+		],
+		"files" : 
+		[
+			"source/app/PccAppVideoEncoder/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 24,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"/home/liao/\u684c\u9762/TMC2/bin/PccAppVideoEncoder"
+			],
+			"targetId" : "PccAppVideoEncoder::@5eebf055109606225958",
+			"targetIndex" : 11,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "source/app/PccAppVideoEncoder",
+		"source" : "source/app/PccAppVideoEncoder"
+	}
+}

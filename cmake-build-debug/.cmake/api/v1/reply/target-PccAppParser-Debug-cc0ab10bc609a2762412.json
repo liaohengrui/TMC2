@@ -1,0 +1,215 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "/home/liao/\u684c\u9762/TMC2/bin/PccAppParser"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"ADD_EXECUTABLE",
+			"INSTALL",
+			"link_directories",
+			"TARGET_LINK_LIBRARIES",
+			"include_directories",
+			"INCLUDE_DIRECTORIES"
+		],
+		"files" : 
+		[
+			"source/app/PccAppParser/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 4,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 3,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fdiagnostics-color=always"
+				},
+				{
+					"fragment" : "-std=gnu++14"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "/home/liao/\u684c\u9762/TMC2/./LightGBM/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/liao/\u684c\u9762/TMC2/source/lib/PccLibBitstreamCommon/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/liao/\u684c\u9762/TMC2/source/lib/PccLibBitstreamReader/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "PccLibBitstreamCommon::@822423bf142bd63fc945"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "PccLibBitstreamReader::@1a0b2b6ddc4604f07533"
+		}
+	],
+	"id" : "PccAppParser::@09592cee15dee3a0928a",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-rdynamic",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-L/home/liao/\u684c\u9762/TMC2/./LightGBM",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/liao/\u684c\u9762/TMC2/./LightGBM:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "-l_lightgbm",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/home/liao/\u684c\u9762/TMC2/lib/libPccLibBitstreamCommon.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/home/liao/\u684c\u9762/TMC2/lib/libPccLibBitstreamReader.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/home/liao/\u684c\u9762/TMC2/lib/libPccLibBitstreamCommon.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "-l_lightgbm",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "PccAppParser",
+	"nameOnDisk" : "PccAppParser",
+	"paths" : 
+	{
+		"build" : "source/app/PccAppParser",
+		"source" : "source/app/PccAppParser"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source/app/PccAppParser/PccAppParser.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

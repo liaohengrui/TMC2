@@ -863,9 +863,28 @@ class PCCVTMLibVideoEncoderCfg {
   virtual ~PCCVTMLibVideoEncoderCfg();
 
  public:
+
+
+
   void create();                            ///< create option handling class
   void destroy();                           ///< destroy option handling class
   bool parseCfg( int argc, char* argv[] );  ///< parse configuration file to fill member variables
+
+
+  //altissie added
+  unsigned int getM_uiCTUSize() const {return m_uiCTUSize;};
+  const bool is_writePartition() const {return m_writePartition;};
+  const bool is_readPartition() const {return m_readPartition;};
+  const bool is_predictPartition() const {return m_predictPartition;};
+  const bool is_predictPartitionInter() const {return m_predictPartitionInter;};
+  const std::string &get_filenameInput() const {return m_inputFileName;};
+  const std::string &get_datFolder() const {return m_datFolder;};
+  const unsigned int get_qp() const {return m_iQP;};
+  int get_sourceWidth() const {return m_sourceWidth;};
+  int get_sourceHeight() const {return m_sourceHeight;};
+
+  //sbelhadj added
+  const std::string &get_modelFolder() const {return m_modelFolder;};
 
 };  // END CLASS DEFINITION EncAppCfg
 

@@ -1,0 +1,283 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "/home/liao/\u684c\u9762/TMC2/lib/libDecoderLib_vtm.a"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_vtm_library",
+			"INCLUDE",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"dependencies/cmake/vtm.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 72,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 79,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 30,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 80,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 3,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-w"
+				},
+				{
+					"fragment" : "-std=gnu++14"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "/home/liao/\u684c\u9762/TMC2/./LightGBM/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/liao/\u684c\u9762/TMC2/dependencies/VTM/source/Lib/CommonLib/."
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/liao/\u684c\u9762/TMC2/dependencies/VTM/source/Lib/CommonLib/.."
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/liao/\u684c\u9762/TMC2/dependencies/VTM/source/Lib/CommonLib/x86"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/liao/\u684c\u9762/TMC2/dependencies/VTM/source/Lib"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					5
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "libmd5_vtm::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "CommonLib::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "DecoderLib_vtm::@6890427a1f51a3e7e1df",
+	"name" : "DecoderLib_vtm",
+	"nameOnDisk" : "libDecoderLib_vtm.a",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "dependencies/VTM/source/Lib/DecoderLib/AnnexBread.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "dependencies/VTM/source/Lib/DecoderLib/BinDecoder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "dependencies/VTM/source/Lib/DecoderLib/CABACReader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "dependencies/VTM/source/Lib/DecoderLib/DecCu.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "dependencies/VTM/source/Lib/DecoderLib/DecLib.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "dependencies/VTM/source/Lib/DecoderLib/DecSlice.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "dependencies/VTM/source/Lib/DecoderLib/NALread.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "dependencies/VTM/source/Lib/DecoderLib/SEIread.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "dependencies/VTM/source/Lib/DecoderLib/VLCReader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "dependencies/VTM/source/Lib/DecoderLib/AnnexBread.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "dependencies/VTM/source/Lib/DecoderLib/BinDecoder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "dependencies/VTM/source/Lib/DecoderLib/CABACReader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "dependencies/VTM/source/Lib/DecoderLib/DecCu.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "dependencies/VTM/source/Lib/DecoderLib/DecLib.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "dependencies/VTM/source/Lib/DecoderLib/DecSlice.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "dependencies/VTM/source/Lib/DecoderLib/NALread.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "dependencies/VTM/source/Lib/DecoderLib/SEIread.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "dependencies/VTM/source/Lib/DecoderLib/VLCReader.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "source/lib/PccLibEncoder",
+		"source" : "source/lib/PccLibEncoder"
+	}
+}

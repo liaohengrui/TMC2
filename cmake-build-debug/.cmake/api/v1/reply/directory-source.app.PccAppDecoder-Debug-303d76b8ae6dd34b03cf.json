@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL"
+		],
+		"files" : 
+		[
+			"source/app/PccAppDecoder/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"/home/liao/\u684c\u9762/TMC2/bin/PccAppDecoder"
+			],
+			"targetId" : "PccAppDecoder::@915cc70401b8111ce5e3",
+			"targetIndex" : 5,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "source/app/PccAppDecoder",
+		"source" : "source/app/PccAppDecoder"
+	}
+}

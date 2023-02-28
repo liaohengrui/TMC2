@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL"
+		],
+		"files" : 
+		[
+			"source/app/PccAppVideoDecoder/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"/home/liao/\u684c\u9762/TMC2/bin/PccAppVideoDecoder"
+			],
+			"targetId" : "PccAppVideoDecoder::@e007c540e0d969b103dd",
+			"targetIndex" : 10,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "source/app/PccAppVideoDecoder",
+		"source" : "source/app/PccAppVideoDecoder"
+	}
+}
