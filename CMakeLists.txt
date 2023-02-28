@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.17 FATAL_ERROR)
 
-include_directories(../LightGBM/include)
-link_directories(../LightGBM)
+include_directories(./LightGBM/include)
+link_directories(./LightGBM)
 link_libraries(_lightgbm)
 
 PROJECT (TMC2 CXX C )

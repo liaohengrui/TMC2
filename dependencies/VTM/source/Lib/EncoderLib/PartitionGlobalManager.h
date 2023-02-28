@@ -11,13 +11,13 @@
 //#include "PartitionOccurences.h"
 //#include "PartitionPrediction.h"
 
-PartitionManager * store_partition;
-PartitionManager * load_partition;
-PartitionParam * param_partition;
+extern PartitionManager * store_partition;
+extern PartitionManager * load_partition;
+extern PartitionParam * param_partition;
 //extern PartitionOccurences * occur_partition;
-PartitionPrediction * predict_partition;
-PartitionPrediction * predict_partitionInter;
-float time_cnn;
+extern PartitionPrediction * predict_partition;
+extern PartitionPrediction * predict_partitionInter;
+extern float time_cnn;
 //extern int valPred;
 //extern std::vector<std::vector<float>> * pred_vector_chroma;
 

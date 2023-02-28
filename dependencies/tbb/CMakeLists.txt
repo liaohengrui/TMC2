@@ -61,7 +61,7 @@ set(tbbmalloc_static_src
   src/tbbmalloc/frontend.cpp
   src/tbb/itt_notify.cpp)
 
-set(tbbmalloc_src ${tbbmalloc_static_src})
+set(tbbmalloc_src ${tbbmalloc_static_src} ../VTM/source/Lib/EncoderLib/PartitionGlobalManager.cpp)
 
 set(tbbmalloc_proxy_src
   src/tbbmalloc/proxy.cpp

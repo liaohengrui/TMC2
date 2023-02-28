@@ -1,4 +1,4 @@
-# Install script for directory: /home/admin/mpeg-pcc-tmc2
+# Install script for directory: /home/liao/桌面/TMC2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,7 +29,7 @@ endif()
 
 # Install shared libraries without execute permission?
 if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
-  set(CMAKE_INSTALL_SO_NO_EXE "0")
+  set(CMAKE_INSTALL_SO_NO_EXE "1")
 endif()
 
 # Is this installation the result of a crosscompile?
@@ -44,107 +44,107 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/admin/mpeg-pcc-tmc2/cmake-build-debug/dependencies/cmake_install.cmake")
+  include("/home/liao/桌面/TMC2/cmake-build-debug/dependencies/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibVideoDecoder/cmake_install.cmake")
+  include("/home/liao/桌面/TMC2/cmake-build-debug/source/lib/PccLibVideoDecoder/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibVideoEncoder/cmake_install.cmake")
+  include("/home/liao/桌面/TMC2/cmake-build-debug/source/lib/PccLibVideoEncoder/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibColorConverter/cmake_install.cmake")
+  include("/home/liao/桌面/TMC2/cmake-build-debug/source/lib/PccLibColorConverter/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibBitstreamCommon/cmake_install.cmake")
+  include("/home/liao/桌面/TMC2/cmake-build-debug/source/lib/PccLibBitstreamCommon/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibBitstreamWriter/cmake_install.cmake")
+  include("/home/liao/桌面/TMC2/cmake-build-debug/source/lib/PccLibBitstreamWriter/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibBitstreamReader/cmake_install.cmake")
+  include("/home/liao/桌面/TMC2/cmake-build-debug/source/lib/PccLibBitstreamReader/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibCommon/cmake_install.cmake")
+  include("/home/liao/桌面/TMC2/cmake-build-debug/source/lib/PccLibCommon/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibDecoder/cmake_install.cmake")
+  include("/home/liao/桌面/TMC2/cmake-build-debug/source/lib/PccLibDecoder/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibEncoder/cmake_install.cmake")
+  include("/home/liao/桌面/TMC2/cmake-build-debug/source/lib/PccLibEncoder/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibMetrics/cmake_install.cmake")
+  include("/home/liao/桌面/TMC2/cmake-build-debug/source/lib/PccLibMetrics/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/lib/PccLibConformance/cmake_install.cmake")
+  include("/home/liao/桌面/TMC2/cmake-build-debug/source/lib/PccLibConformance/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppParser/cmake_install.cmake")
+  include("/home/liao/桌面/TMC2/cmake-build-debug/source/app/PccAppParser/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppEncoder/cmake_install.cmake")
+  include("/home/liao/桌面/TMC2/cmake-build-debug/source/app/PccAppEncoder/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppDecoder/cmake_install.cmake")
+  include("/home/liao/桌面/TMC2/cmake-build-debug/source/app/PccAppDecoder/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppMetrics/cmake_install.cmake")
+  include("/home/liao/桌面/TMC2/cmake-build-debug/source/app/PccAppMetrics/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppConformance/cmake_install.cmake")
+  include("/home/liao/桌面/TMC2/cmake-build-debug/source/app/PccAppConformance/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppVideoEncoder/cmake_install.cmake")
+  include("/home/liao/桌面/TMC2/cmake-build-debug/source/app/PccAppVideoEncoder/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppVideoDecoder/cmake_install.cmake")
+  include("/home/liao/桌面/TMC2/cmake-build-debug/source/app/PccAppVideoDecoder/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppColorConverter/cmake_install.cmake")
+  include("/home/liao/桌面/TMC2/cmake-build-debug/source/app/PccAppColorConverter/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/admin/mpeg-pcc-tmc2/cmake-build-debug/source/app/PccAppNormalGenerator/cmake_install.cmake")
+  include("/home/liao/桌面/TMC2/cmake-build-debug/source/app/PccAppNormalGenerator/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -155,5 +155,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/admin/mpeg-pcc-tmc2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/liao/桌面/TMC2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

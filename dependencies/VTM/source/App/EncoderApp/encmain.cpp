@@ -45,6 +45,7 @@
 #include "Utilities/program_options_lite.h"
 #include <EncoderLib/PartitionManager.h>
 #include <EncoderLib/PartitionPrediction.h>
+#include <EncoderLib/PartitionGlobalManager.h>
 //! \ingroup EncoderApp
 //! \{
 
@@ -54,13 +55,12 @@ static const uint32_t settingValueWidth = 3;
 // --------------------------------------------------------------------------------------------------------------------- //
 
 //macro value printing function
-PartitionManager * store_partition;
-PartitionManager * load_partition;
-PartitionParam * param_partition;
-PartitionPrediction * predict_partition;
-PartitionPrediction * predict_partitionInter;
-
-float time_cnn = 0;
+extern PartitionManager * store_partition;
+extern PartitionManager * load_partition;
+extern PartitionParam * param_partition;
+extern PartitionPrediction * predict_partition;
+extern PartitionPrediction * predict_partitionInter;
+extern float time_cnn;
 
 
 #define PRINT_CONSTANT(NAME, NAME_WIDTH, VALUE_WIDTH) std::cout << std::setw(NAME_WIDTH) << #NAME << " = " << std::setw(VALUE_WIDTH) << NAME << std::endl;

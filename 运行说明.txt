@@ -1,0 +1,43 @@
+git clone -b 'v0.2.18-p0' --single-branch --depth 1 https://github.com/Dobiasd/FunctionalPlus
+cd FunctionalPlus
+mkdir -p build && cd build
+cmake ..
+make && sudo make install
+cd ../..
+
+git clone -b '3.4.0' --single-branch --depth 1 https://gitlab.com/libeigen/eigen.git
+cd eigen
+mkdir -p build && cd build
+cmake ..
+make && sudo make install
+sudo ln -s /usr/local/include/eigen3/Eigen /usr/local/include/Eigen
+cd ../..
+
+git clone -b 'v3.10.5' --single-branch --depth 1 https://github.com/nlohmann/json
+cd json
+mkdir -p build && cd build
+cmake -DJSON_BuildTests=OFF ..
+make && sudo make install
+cd ../..
+
+git clone -b v0.15.18-p0 https://github.com/Dobiasd/frugally-deep
+cd frugally-deep
+mkdir -p build && cd build
+cmake ..
+make && sudo make install
+cd ../..
+
+---------------------------------------------------------------------------------
+--configurationFolder=项目目录/cfg/
+--config=项目目录/cfg/common/ctc-common.cfg
+--config=项目目录/cfg/condition/vtm-all-intra.cfg
+--config=项目目录/cfg/sequence/soldier_vox10.cfg
+--config=项目目录/cfg/rate/ctc-r3.cfg
+--uncompressedDataFolder=项目目录/
+--frameCount=1
+--colorSpaceConversionPath=/home/admin/external/HDRTools/build/bin/HDRConvert
+--reconstructedDataPath=S26C03R03_rec_%04d.ply
+--compressedStreamPath=S26C03R03.bin
+--absoluteD1=1
+--absoluteT1=1
+--profileCodecGroupIdc=4

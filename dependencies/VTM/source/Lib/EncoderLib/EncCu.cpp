@@ -48,23 +48,23 @@
 
 
 #include "CommonLib/dtrace_buffer.h"
-//#include "PartitionGlobalManager.h"
+#include "PartitionGlobalManager.h"
 #include "PartitionUtils.h"
 
 #include <stdio.h>
 #include <cmath>
 #include <algorithm>
+//
+//#include "PartitionManager.h"
+//#include "PartitionPrediction.h"
 
-#include "PartitionManager.h"
-#include "PartitionPrediction.h"
-
-extern PartitionManager * store_partition;
-extern PartitionManager * load_partition;
-extern PartitionParam * param_partition;
-//extern PartitionOccurences * occur_partition;
-extern PartitionPrediction * predict_partition;
-extern PartitionPrediction * predict_partitionInter;
-extern float time_cnn;
+//extern PartitionManager * store_partition;
+//extern PartitionManager * load_partition;
+//extern PartitionParam * param_partition;
+////extern PartitionOccurences * occur_partition;
+//extern PartitionPrediction * predict_partition;
+//extern PartitionPrediction * predict_partitionInter;
+//extern float time_cnn;
 
 
 //! \ingroup EncoderLib

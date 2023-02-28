@@ -58,19 +58,21 @@
 #include "CommonLib/ProfileLevelTier.h"
 
 #include "DecoderLib/DecLib.h"
-//#include "PartitionGlobalManager.h"
-#include "PartitionManager.h"
-#include "PartitionPrediction.h"
+#include "PartitionGlobalManager.h"
+//#include "PartitionManager.h"
+//#include "PartitionPrediction.h"
+//
 
-extern PartitionManager * store_partition;
-extern PartitionManager * load_partition;
-extern PartitionParam * param_partition;
-//extern PartitionOccurences * occur_partition;
-extern PartitionPrediction * predict_partition;
-extern PartitionPrediction * predict_partitionInter;
-extern float time_cnn;
 
 using namespace std;
+
+//extern PartitionManager * store_partition;
+//extern PartitionManager * load_partition;
+//extern PartitionParam * param_partition;
+////extern PartitionOccurences * occur_partition;
+//extern PartitionPrediction * predict_partition;
+//extern PartitionPrediction * predict_partitionInter;
+//extern float time_cnn;
 
 //! \ingroup EncoderLib
 //! \{
