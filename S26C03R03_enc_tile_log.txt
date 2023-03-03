@@ -1,0 +1,2 @@
+AtlasFrameIndex = 0
+TileID = 0, AtlasFrameOrderCntVal = 0, TileType = 1, TileOffsetX = 0, TileOffsetY = 0, TileWidth = 1280, TileHeight = 1280,  Tile MD5 = 31562c071f1f06ec9bba2a04638b9372, Tile B2P MD5 = ddfcedd04fc310dcd7f89cf0309b64b2

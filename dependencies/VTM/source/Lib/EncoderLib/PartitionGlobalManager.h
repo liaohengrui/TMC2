@@ -18,6 +18,7 @@ extern PartitionParam * param_partition;
 extern PartitionPrediction * predict_partition;
 extern PartitionPrediction * predict_partitionInter;
 extern float time_cnn;
+
 //extern int valPred;
 //extern std::vector<std::vector<float>> * pred_vector_chroma;
 

@@ -40,7 +40,7 @@
 #include "EncLib.h"
 #include "CommonLib/UnitTools.h"
 #include "CommonLib/Picture.h"
-//#include "PartitionGlobalManager.h"
+#include "PartitionGlobalManager.h"
 #if K0149_BLOCK_STATISTICS
 #include "CommonLib/dtrace_blockstatistics.h"
 #endif
@@ -48,16 +48,17 @@
 
 #include <math.h>
 
-#include "PartitionManager.h"
-#include "PartitionPrediction.h"
+//#include "PartitionManager.h"
+//#include "PartitionPrediction.h"
 
-extern PartitionManager * store_partition;
-extern PartitionManager * load_partition;
-extern PartitionParam * param_partition;
-//extern PartitionOccurences * occur_partition;
-extern PartitionPrediction * predict_partition;
-extern PartitionPrediction * predict_partitionInter;
-extern float time_cnn;
+//extern PartitionManager * store_partition;
+//extern PartitionManager * load_partition;
+//extern PartitionParam * param_partition;
+////extern PartitionOccurences * occur_partition;
+//extern PartitionPrediction * predict_partition;
+//extern PartitionPrediction * predict_partitionInter;
+//extern float time_cnn;
+//extern int REUSE_CU_RESULTS;
 
 //! \ingroup EncoderLib
 //! \{
@@ -1476,6 +1477,10 @@ void EncSlice::compressSlice( Picture* pcPic, const bool bCompressEntireSlice, c
 
   Slice* const pcSlice    = pcPic->slices[getSliceSegmentIdx()];
 
+//  if(!pcSlice->isIntra()){
+//
+//  }
+
 #if JVET_V0106_RRC_RICE
   if (pcSlice->getSPS()->getSpsRangeExtension().getRrcRiceExtensionEnableFlag())
   {
@@ -1890,6 +1895,7 @@ void EncSlice::encodeCtus( Picture* pcPic, const bool bCompressEntireSlice, cons
     }
 
     //altissie added => create luma and chroma tree for the ctu
+
     PartitionTree luma_tree(param_partition->ctuSize, param_partition->ctuSize, nullptr, nullptr, param_partition, false, false, cs.cost);
     PartitionTree chroma_tree(param_partition->ctuSize, param_partition->ctuSize, nullptr, nullptr, param_partition, false, false, cs.cost);
 

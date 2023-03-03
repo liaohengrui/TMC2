@@ -874,8 +874,10 @@ class PCCVTMLibVideoEncoderCfg {
   //altissie added
   unsigned int getM_uiCTUSize() const {return m_uiCTUSize;};
   const bool is_writePartition() const {return m_writePartition;};
+
   const bool is_readPartition() const {return m_readPartition;};
   const bool is_predictPartition() const {return m_predictPartition;};
+  void set_predictPartition(){m_predictPartition = false;};
   const bool is_predictPartitionInter() const {return m_predictPartitionInter;};
   const std::string &get_filenameInput() const {return m_inputFileName;};
   const std::string &get_datFolder() const {return m_datFolder;};

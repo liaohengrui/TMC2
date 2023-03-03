@@ -1,0 +1,2 @@
+AtlasFrameIndex = 0
+PointCloudFrameOrderCntVal = 0, NumProjPoints = 1065460, NumRawPoints = 0, NumEomPoints = 0, MD5 checksum = 58799e0faa8b71ece5348afebbc164c8

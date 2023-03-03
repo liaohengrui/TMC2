@@ -58,17 +58,17 @@
 #include "CommonLib/ProfileLevelTier.h"
 
 #include "DecoderLib/DecLib.h"
-//#include "PartitionGlobalManager.h"
-#include "PartitionManager.h"
-#include "PartitionPrediction.h"
+#include "PartitionGlobalManager.h"
+//#include "PartitionManager.h"
+//#include "PartitionPrediction.h"
 
-extern PartitionManager * store_partition;
-extern PartitionManager * load_partition;
-extern PartitionParam * param_partition;
-//extern PartitionOccurences * occur_partition;
-extern PartitionPrediction * predict_partition;
-extern PartitionPrediction * predict_partitionInter;
-extern float time_cnn;
+//extern PartitionManager * store_partition;
+//extern PartitionManager * load_partition;
+//extern PartitionParam * param_partition;
+////extern PartitionOccurences * occur_partition;
+//extern PartitionPrediction * predict_partition;
+//extern PartitionPrediction * predict_partitionInter;
+//extern float time_cnn;
 
 using namespace std;
 
@@ -2856,6 +2856,14 @@ void EncGOP::compressGOP( int iPOCLast, int iNumPicRcvd, PicList& rcListPic,
     {
       m_pcSliceEncoder->setJointCbCrModes(*pcPic->cs, Position(0, 0), pcPic->cs->area.lumaSize());
     }
+
+
+
+    if(pcSlice->getPOC()%2 == 1 || pcSlice->getSliceQp()==0) {
+      param_partition->set_predictParatition_false();
+    }
+
+
 
     if( encPic )
     // now compress (trial encode) the various slice segments (slices, and dependent slices)

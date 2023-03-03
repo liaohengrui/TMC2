@@ -154,7 +154,9 @@ void PCCVTMLibVideoEncoder<T>::encode( PCCVideo<T, 3>&            videoSrc,
   for ( size_t i = 0; i < args.size(); i++ ) { delete[] args[i]; }
 
   encoder.createLib( 0 );
-
+  if(0){
+    encoder.set_predictPartition();
+  }
 
   // Get partition param from config fileFF
   param_partition = new PartitionParam(encoder.getM_uiCTUSize(), 6*3/*Because I decided to use 6*3 bits to encode MTT in dat file*/, encoder.is_writePartition(), encoder.is_readPartition(), encoder.is_predictPartition(), encoder.is_predictPartitionInter());

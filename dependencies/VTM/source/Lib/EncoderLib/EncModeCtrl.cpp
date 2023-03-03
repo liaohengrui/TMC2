@@ -887,6 +887,10 @@ bool BestEncInfoCache::setFromCs( const CodingStructure& cs, const Partitioner& 
 
   BestEncodingInfo& encInfo = *m_bestEncInfo[idx1][idx2][idx3][idx4];
 
+  if(cs.picture->poc!=0){
+    printf("");
+  }
+
   encInfo.poc            =  cs.picture->poc;
   encInfo.cu.repositionTo( *cs.cus.front() );
   encInfo.pu.repositionTo( *cs.pus.front() );
@@ -959,6 +963,12 @@ bool BestEncInfoCache::setCsFrom( CodingStructure& cs, EncTestMode& testMode, co
   getAreaIdx( cs.area.Y(), *m_slice_bencinf->getPPS()->pcv, idx1, idx2, idx3, idx4 );
 
   BestEncodingInfo& encInfo = *m_bestEncInfo[idx1][idx2][idx3][idx4];
+
+//  if(cs.picture->poc!=0){
+//
+//      printf("11");
+//
+//  }
 
   if( cs.picture->poc != encInfo.poc || CS::getArea( cs, cs.area, partitioner.chType ) != CS::getArea( cs, encInfo.cu, partitioner.chType ) || !isTheSameNbHood( encInfo.cu, cs, partitioner
     , encInfo.pu, (cs.picture->Y().width), (cs.picture->Y().height)
@@ -1426,6 +1436,9 @@ bool EncModeCtrlMTnoRQT::tryMode( const EncTestMode& encTestmode, const CodingSt
   const CodingStructure *bestCS      = cuECtx.bestCS;
   const CodingUnit      *bestCU      = cuECtx.bestCU;
   const EncTestMode      bestMode    = bestCS ? getCSEncMode( *bestCS ) : EncTestMode();
+
+
+
 
   CodedCUInfo    &relatedCU          = getBlkInfo( partitioner.currArea() );
 

@@ -17,6 +17,7 @@ public:
     bool is_readPartition() const {return readPartition;};
     bool is_predictPartition() const {return predictPartition;};
     bool is_predictPartitionInter() const {return predictPartitionInter;};
+    void set_predictParatition_false (){predictPartition = false;};
 
     u_int16_t mttDataSize; // Size of one maximum value of split decision
     u_int16_t ctuSize; // Size of a CTU

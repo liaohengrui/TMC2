@@ -48,23 +48,23 @@
 
 
 #include "CommonLib/dtrace_buffer.h"
-//#include "PartitionGlobalManager.h"
+#include "PartitionGlobalManager.h"
 #include "PartitionUtils.h"
 
 #include <stdio.h>
 #include <cmath>
 #include <algorithm>
 
-#include "PartitionManager.h"
-#include "PartitionPrediction.h"
+//#include "PartitionManager.h"
+//#include "PartitionPrediction.h"
 
-extern PartitionManager * store_partition;
-extern PartitionManager * load_partition;
-extern PartitionParam * param_partition;
-//extern PartitionOccurences * occur_partition;
-extern PartitionPrediction * predict_partition;
-extern PartitionPrediction * predict_partitionInter;
-extern float time_cnn;
+//extern PartitionManager * store_partition;
+//extern PartitionManager * load_partition;
+//extern PartitionParam * param_partition;
+////extern PartitionOccurences * occur_partition;
+//extern PartitionPrediction * predict_partition;
+//extern PartitionPrediction * predict_partitionInter;
+//extern float time_cnn;
 
 
 //! \ingroup EncoderLib
@@ -321,6 +321,10 @@ void EncCu::compressCtu( CodingStructure& cs, const UnitArea& area, const unsign
     int * pocRef = (int *) malloc(2 * sizeof(int));
     mvUni[0].setHor(9999);
 
+//    if(tempCS->picture->poc != 0){
+//        printf("1");
+//
+//    }
 
     if(tempCS->slice->getSliceType()!=I_SLICE && (param_partition->is_predictPartitionInter() || param_partition->is_writePartition())){
         vector<float> *pred_vector_luma = new vector<float>();
@@ -1038,21 +1042,15 @@ void EncCu::xCompressCU( CodingStructure*& tempCS, CodingStructure*& bestCS, Par
     }
     else if( currTestMode.type == ETM_AFFINE )
     {
-        if(param_partition->is_readPartition()) {
-            if (load_partition->getM_cur_tree()->getM_leaves() == nullptr) {
-      xCheckRDCostAffineMerge2Nx2N( tempCS, bestCS, partitioner, currTestMode );
-            }
-        }
-        else{
-            if(param_partition->is_readPartition()) {
-                if (load_partition->getM_cur_tree()->getM_leaves() == nullptr) {
-            xCheckRDCostAffineMerge2Nx2N( tempCS, bestCS, partitioner, currTestMode );
-                }
-            }
-            else{
-                xReuseCachedResult( tempCS, bestCS, partitioner );
-            }
-        }
+        xCheckRDCostAffineMerge2Nx2N( tempCS, bestCS, partitioner, currTestMode );
+//        if(param_partition->is_readPartition()) {
+//            if (load_partition->getM_cur_tree()->getM_leaves() == nullptr) {
+//
+//            }
+//        }
+//        else{
+//              xReuseCachedResult( tempCS, bestCS, partitioner );
+//        }
     }
 #if REUSE_CU_RESULTS
     else if( currTestMode.type == ETM_RECO_CACHED )
@@ -1569,15 +1567,19 @@ void EncCu::xCheckModeSplit(CodingStructure *&tempCS, CodingStructure *&bestCS, 
       newMaxCostAllowed = std::max(0.0, newMaxCostAllowed);
 
         //Set current tree to the leaves we are currently exploring
+      if(param_partition->is_predictPartition()){
         if(param_partition->is_readPartition()){
-            load_partition->setM_cur_tree(load_partition->getM_cur_tree()->getM_leaves((partitioner.getPartStack().end() - 1)->idx));
+          load_partition->setM_cur_tree(load_partition->getM_cur_tree()->getM_leaves((partitioner.getPartStack().end() - 1)->idx));
         }
-
         xCompressCU(tempSubCS, bestSubCS, partitioner, tmpTree->getM_leaves((partitioner.getPartStack().end() - 1)->idx), mvUni, pocRef, newMaxCostAllowed, pred_vector_luma);
-
         if(param_partition->is_readPartition()){
-            load_partition->setM_cur_tree(load_partition->getM_cur_tree()->getM_root());
+          load_partition->setM_cur_tree(load_partition->getM_cur_tree()->getM_root());
         }
+
+      }else{
+        xCompressCU(tempSubCS, bestSubCS, partitioner, tmpTree->getM_leaves((partitioner.getPartStack().end() - 1)->idx));
+      }
+
 
       tempSubCS->bestParent = bestSubCS->bestParent = nullptr;
 
